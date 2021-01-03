@@ -1,2 +1,2 @@
 # ShehryarHanif.github.io
-This is the GitHub repository for my personal portfolio website.
+I am making a simple portfolio website for both web development practice and industrial usage purposes.
