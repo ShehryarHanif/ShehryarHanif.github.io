@@ -14,20 +14,20 @@ body{
 }
 
 #mainNavBar .nav-link{
-    color: darkgreen;
+    color: seagreen;
 }
 
 #mainNavBar .nav-link:hover{
-    color: black;
+    color: darkgreen;
 }
 
 #mainNavBar .navbar-brand{
-    color: black;
+    color: darkgreen;
     font-size: 1.6rem;
 }
 
 #headingGroup{
-    background: darkgrey;
+    background: darkgreen;
     height: 500px;
 }
 
@@ -38,16 +38,9 @@ body{
 }
 
 .blurb h2{
-    color: darkgreen;
+    color: seagreen;
     font-weight: 500;
     font-size: 3.5rem;
-}
-
-.blurb p{
-    color: yellow;
-    font-weight: 100;
-    font-size: 1.125rem;
-    line-height: 2;
 }
 
 .content{
@@ -73,7 +66,6 @@ body{
 	width: 100%;
     border-bottom-width: 10px;
     border-bottom: 1px solid darkgreen;
-
 }
 
 .heading h1 {
@@ -81,12 +73,6 @@ body{
 	text-align: center;
     font-size: 3em;
     font-weight: 200;
-}
-
-.heading p {
-	color: darkgreen;
-	text-align: center;
-	font-size: 1.3em;
 }
 
 .heading ul, .foot ul {
@@ -113,30 +99,30 @@ body{
 }
 
 .fa-envelope-o{
-    color: darkgreen;
+    color: seagreen;
     border: 0;
 }
 
 .fa-linkedin{
-    color: darkgreen;
+    color: seagreen;
 }
 
 .fa-github{
-	color: darkgreen;
+	color: seagreen;
 }
 
 .fa-envelope-o:hover {
-    color: black;
+    color: darkgreen;
     text-decoration: none;
 }
 
 .fa-linkedin:hover {
-    color: black;
+    color: darkgreen;
     text-decoration: none;
 }
 
 .fa-github:hover {
-    color: black;
+    color: darkgreen;
     text-decoration: none;
 }
 
