@@ -1,2 +1,2 @@
 # portfolioWebsite
-GitHub repository for personal portfolio website
+This is the GitHub repository for my personal portfolio website.
