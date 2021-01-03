@@ -1,0 +1,152 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+#mainNavBar{
+    background: lightgrey;
+    font-size: 1rem;
+    font-weight: 100;
+    border-bottom: 1px solid darkgreen;
+}
+
+#mainNavBar .nav-link{
+    color: darkgreen;
+}
+
+#mainNavBar .nav-link:hover{ /* The color changes when you hover on the text. */
+    color: black;
+}
+
+#mainNavBar .navbar-brand{
+    color: black;
+    font-size: 1.6rem;
+}
+
+#headingGroup{
+    background: darkgrey;
+    height: 500px;
+}
+
+#headingGroup h1{
+    color: darkgreen;
+    font-size: 6rem;
+    font-weight: 400;
+}
+
+.blurb h2{
+    color: darkgreen;
+    font-weight: 500;
+    font-size: 3.5rem;
+}
+
+.blurb p{
+    color: yellow;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+.content{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.navbar.scrolled{
+    background: yellow;
+    transition: background 500ms;
+}
+
+@media (max-width: 1200px){ /* Stuff changes depending on the size of the window. */
+    #headingGroup h1{
+        font-size: 2rem;
+        font-weight: 100;
+    }
+}
+
+.heading {
+	padding: 70px 0px 10px;
+	background: darkgrey;
+	width: 100%;
+    border-bottom-width: 10px;
+    border-bottom: 1px solid darkgreen;
+
+}
+
+.heading h1 {
+	color: darkgreen;
+	text-align: center;
+    font-size: 3em;
+    font-weight: 200;
+}
+
+.heading p {
+	color: darkgreen;
+	text-align: center;
+	font-size: 1.3em;
+}
+
+.heading ul, .foot ul {
+	padding-left: 0;
+	text-align: center;
+}
+
+.heading li, .foot li {
+	display: inline;
+	padding: 4px;
+}
+
+.foot ul li a, .heading ul li a {
+	margin: 0;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 1.5em;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa-envelope-o{
+    color: darkgreen;
+    border: 0;
+}
+
+.fa-linkedin{
+    color: darkgreen;
+}
+
+.fa-github{
+	color: darkgreen;
+}
+
+.fa-envelope-o:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.fa-linkedin:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.fa-github:hover {
+    color: black;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+	.heading li, .foot li {
+		padding: 1.5px;
+	}
+
+	.fa {
+		width: 15px;
+		font-size: 1.25em;
+	}
+}
