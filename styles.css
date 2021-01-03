@@ -7,9 +7,9 @@ body{
 }
 
 #mainNavBar{
-    background: lightgrey;
+    background: darkgrey;
     font-size: 1rem;
-    font-weight: 100;
+    font-weight: 200;
     border-bottom: 1px solid darkgreen;
 }
 
@@ -17,7 +17,7 @@ body{
     color: darkgreen;
 }
 
-#mainNavBar .nav-link:hover{ /* The color changes when you hover on the text. */
+#mainNavBar .nav-link:hover{
     color: black;
 }
 
@@ -60,7 +60,7 @@ body{
     transition: background 500ms;
 }
 
-@media (max-width: 1200px){ /* Stuff changes depending on the size of the window. */
+@media (max-width: 1200px){
     #headingGroup h1{
         font-size: 2rem;
         font-weight: 100;
@@ -69,7 +69,7 @@ body{
 
 .heading {
 	padding: 70px 0px 10px;
-	background: darkgrey;
+	background: lightgrey;
 	width: 100%;
     border-bottom-width: 10px;
     border-bottom: 1px solid darkgreen;
