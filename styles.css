@@ -229,7 +229,120 @@ body{
 	}
 }
 
-.foot {
+.project{
+	background: darkgrey;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: right;
+    border-bottom: 1px solid darkgreen;
+	padding: 25px 0px 25px;
+	width: 100%;
+	overflow: hidden;
+}
+
+.project h2{
+	margin-top: 0;
+	margin-bottom: 0;
+	text-align: center;
+	font-size: 2.5em;
+	color: darkgreen;
+	font-weight: 250;
+}
+
+.prowrapper{
+	width: 90%;
+	margin: 0 auto;
+	padding-top: 40px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: auto auto;
+	grid-row-gap: 20px;
+	grid-column-gap: 250px;
+	perspective: 1000px;
+	padding-right: 150px;
+	padding-left: 150px;
+}
+
+.prowrapper .cwrap > div{
+    border: 1px solid darkgreen;
+	height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+	transition: transform 0.8s;
+  	transform-style: preserve-3d;
+}
+
+.prowrapper .pro1{
+	background: lightgrey;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.prowrapper .pro2{
+	background: lightgrey;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: center; 
+}
+
+.prowrapper .content{
+	display: none;
+	backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+}
+
+.prowrapper .cwrap:hover .content{
+	display: block;
+	backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+} 
+
+.prowrapper .cwrap:hover .inner{
+	display: none;
+} 
+
+.prowrapper .cwrap:hover > div{
+  	transform: rotateY(180deg);
+  	background: lightgrey;
+  	cursor: pointer;
+}
+
+.prowrapper .content{
+	transform: rotateY(180deg);
+}
+
+.prowrapper p{
+	text-align: justify;
+	color: darkgreen;
+	font-size: 1em;
+	padding: 10px;
+}
+
+.prowrapper h4{
+	text-align: center;
+	color: seagreen;
+	font-weight: 200;
+	font-size: 2.4em;
+	margin: 0;
+}
+
+@media only screen and (max-width: 1300px) and (min-width: 799px){
+	.prowrapper {
+		grid-template-columns: 1fr 1fr;
+		margin: 0 auto;
+	}
+}
+
+@media only screen and (max-width: 798px){
+	.prowrapper {
+		grid-template-columns: 1fr; 
+	}
+}
+
+.foot{
 	background: whitesmoke;
 	padding: 25px 0px 20px;
 	width: 100%;
@@ -237,7 +350,7 @@ body{
 	text-align: center;
 }
 
-.foot h2 {
+.foot h2{
 	margin-top: 0;
 	text-align: center;
 	font-size: 2em;
