@@ -288,7 +288,7 @@ body{
 .projectsContainer p{
 	text-align: justify;
 	color: darkgreen;
-	font-size: 1em;
+	font-size: 0.75em;
 	padding: 10px;
 }
 
@@ -304,7 +304,7 @@ body{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	font-size: 1.8em;
+	font-size: 1.3em;
 	text-align: center;
 	padding-top: 3px;
 	padding-bottom: 0px;
