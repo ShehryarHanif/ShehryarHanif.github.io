@@ -1,4 +1,4 @@
-html {
+html{
 	scroll-behavior: smooth;
 }
 
@@ -27,36 +27,12 @@ body{
     font-size: 1.6rem;
 }
 
-#headingGroup{
-    background: darkgreen;
-    height: 500px;
-}
-
-#headingGroup h1{
-    color: darkgreen;
-    font-size: 6rem;
-    font-weight: 400;
-}
-
-.blurb h2{
-    color: seagreen;
-    font-weight: 500;
-    font-size: 3.5rem;
-}
-
 .content{
     margin-top: 100px;
     margin-bottom: 100px;
 }
 
-@media (max-width: 1200px){
-    #headingGroup h1{
-        font-size: 2rem;
-        font-weight: 100;
-    }
-}
-
-.heading{
+.initialSection{
 	padding: 70px 0px 10px;
 	background: lightgrey;
 	width: 100%;
@@ -64,25 +40,21 @@ body{
     border-bottom: 1px solid darkgreen;
 }
 
-.heading h1{
+.initialSection h1{
 	color: darkgreen;
 	text-align: center;
     font-size: 3em;
     font-weight: 400;
 }
 
-.heading ul, .foot ul{
+.initialSection ul, .endingSection ul{
 	padding-left: 0;
 	text-align: center;
 }
 
-.heading li, .foot li{
+.initialSection li, .endingSection li{
 	display: inline;
 	padding: 4px;
-}
-
-.foot ul li a, .heading ul li a{
-	margin: 0;
 }
 
 .fa{
@@ -107,12 +79,12 @@ body{
 	color: seagreen;
 }
 
-.fa-envelope-o:hover {
+.fa-envelope-o:hover{
     color: darkgreen;
     text-decoration: none;
 }
 
-.fa-linkedin:hover {
+.fa-linkedin:hover{
     color: darkgreen;
     text-decoration: none;
 }
@@ -122,26 +94,25 @@ body{
     text-decoration: none;
 }
 
-@media only screen and (max-width: 600px) {
-	.heading li, .foot li {
+@media only screen and (max-width: 600px){
+	.initialSection li, .endingSection li{
 		padding: 1.5px;
 	}
 
-	.fa {
+	.fa{
 		width: 15px;
 		font-size: 1.25em;
 	}
 }
 
-.aboutme {
+.personalInfo{
 	background: darkgrey;
     border-bottom: 1px solid darkgreen;
 	padding: 25px 0px 25px;
 	width: 100%;
-	overflow: hidden;
 }
 
-.aboutme h2 {
+.personalInfo h2{
 	margin-top: 0;
 	text-align: center;
 	font-size: 2.5em;
@@ -150,7 +121,7 @@ body{
 	padding-bottom: 10px;
 }
 
-.aboutme p {
+.personalInfo p{
 	width: 75%;
 	color: darkgreen;
 	margin: 0 auto;
@@ -158,16 +129,15 @@ body{
     text-align: justify;
 }
 
-.skill{
+.skills{
 	background: lightgrey;
     border-bottom: 1px solid darkgreen;
 	padding: 25px 0px 25px;
 	width: 100%;
-    overflow: hidden;
-    margin: auto;
+	margin: auto;
 }
 
-.skill h2 {
+.skills h2{
 	margin-top: 0;
 	text-align: center;
 	font-size: 2.5em;
@@ -186,7 +156,7 @@ body{
 		grid-row-gap: 30px;
 	}
 
-	.skill .container img {
+	.skills .container img {
 		display: block;
 		height: 150px;
 		margin: 0 auto;
@@ -204,7 +174,7 @@ body{
 		grid-row-gap: 30px;
 	}
 
-	.skill .container img {
+	.skills .container img {
 		display: block;
 		height: 150px;
 		margin: 0 auto;
@@ -222,14 +192,14 @@ body{
 		grid-row-gap: 30px;
 	}
 
-	.skill .container img {
+	.skills .container img{
 		display: block;
 		height: 150px;
 		margin: 0 auto;
 	}
 }
 
-.project{
+.projects{
 	background: darkgrey;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -237,10 +207,9 @@ body{
     border-bottom: 1px solid darkgreen;
 	padding: 25px 0px 25px;
 	width: 100%;
-	overflow: hidden;
 }
 
-.project h2{
+.projects h2{
 	margin-top: 0;
 	margin-bottom: 0;
 	text-align: center;
@@ -249,7 +218,7 @@ body{
 	font-weight: 250;
 }
 
-.prowrapper{
+.projectsContainer{
 	width: 90%;
 	margin: 0 auto;
 	padding-top: 40px;
@@ -263,7 +232,7 @@ body{
 	padding-left: 150px;
 }
 
-.prowrapper .cwrap > div{
+.projectsContainer .projectCard > div{
     border: 1px solid darkgreen;
 	height: 300px;
     margin-left: auto;
@@ -272,7 +241,7 @@ body{
   	transform-style: preserve-3d;
 }
 
-.prowrapper .pro1{
+.projectsContainer .projectOne{
 	background: lightgrey;
 	background-position: center;
 	display: flex;
@@ -281,7 +250,7 @@ body{
 	padding: 5px;
 }
 
-.prowrapper .pro2{
+.projectsContainer .projectTwo{
 	background: lightgrey;
 	background-position: center;
 	display: flex;
@@ -290,40 +259,40 @@ body{
 	padding: 5px;
 }
 
-.prowrapper .content{
+.projectsContainer .content{
 	display: none;
 	backface-visibility: hidden;
 	-webkit-backface-visibility: hidden;
 }
 
-.prowrapper .cwrap:hover .content{
+.projectsContainer .projectCard:hover .content{
 	display: block;
 	backface-visibility: hidden;
 	-webkit-backface-visibility: hidden;
 } 
 
-.prowrapper .cwrap:hover .inner{
+.projectsContainer .projectCard:hover .innerContent{
 	display: none;
 } 
 
-.prowrapper .cwrap:hover > div{
+.projectsContainer .projectCard:hover > div{
   	transform: rotateY(180deg);
   	background: lightgrey;
 	padding-top: 20px;
 }
 
-.prowrapper .content{
+.projectsContainer .content{
 	transform: rotateY(180deg);
 }
 
-.prowrapper p{
+.projectsContainer p{
 	text-align: justify;
 	color: darkgreen;
 	font-size: 1em;
 	padding: 10px;
 }
 
-.prowrapper h4{
+.projectsContainer h4{
 	text-align: center;
 	color: seagreen;
 	font-weight: 200;
@@ -336,6 +305,7 @@ body{
 	justify-content: center;
 	align-items: center;
 	font-size: 1.8em;
+	text-align: center;
 	padding-top: 3px;
 	padding-bottom: 0px;
 	text-decoration: none;
@@ -352,7 +322,7 @@ body{
 	color: seagreen;
 }
 
-.repolink:hover {
+.repolink:hover{
     color: darkgreen;
     text-decoration: none;
 }
@@ -361,28 +331,48 @@ body{
 	border: 1px solid darkgreen;
 }
 
-@media only screen and (max-width: 1300px) and (min-width: 799px){
-	.prowrapper {
+@media only screen and (min-width: 799px) and (max-width: 1300px){
+	.projectsContainer{
 		grid-template-columns: 1fr 1fr;
-		margin: 0 auto;
+		grid-column-gap: 50px;
+	}
+
+	.projectsContainer p{
+		font-size: 0.52em;
+		padding: 10px;
+	}
+
+	.speciallink{
+		font-size: 1em;
 	}
 }
 
 @media only screen and (max-width: 798px){
-	.prowrapper {
+	.projectsContainer{
 		grid-template-columns: 1fr; 
+		grid-column-gap: 50px;
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+		
+	.projectsContainer p{
+		font-size: 0.7em;
+		padding: 10px;
+	}
+
+	.speciallink{
+		font-size: 1.5em;
 	}
 }
 
-.foot{
+.endingSection{
 	background: whitesmoke;
 	padding: 25px 0px 20px;
 	width: 100%;
-	overflow: hidden;
 	text-align: center;
 }
 
-.foot h2{
+.endingSection h2{
 	margin-top: 0;
 	text-align: center;
 	font-size: 2em;
@@ -391,7 +381,7 @@ body{
     line-height: 0.8;
 }
 
-.foot h3 {
+.endingSection h3{
 	margin-top: 0;
 	text-align: center;
 	font-size: 1.5em;

@@ -4,7 +4,7 @@
     <head>
         <title> Shehryar Hanif </title>
 
-        <link rel = "icon" href = "nameIcon.jpg" type = "image/x-icon">
+        <link rel = "icon" href = "images/nameIcon/nameIcon.jpg" type = "image/x-icon">
 
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -15,7 +15,7 @@
 
         <link rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity = "sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin = "anonymous">
 
-        <link rel="stylesheet" type = "text/css" href = "styles.css">
+        <link rel="stylesheet" type = "text/css" href = "styles/styles.css">
     </head>
 
     <body>
@@ -35,7 +35,7 @@
             </nav>
         </header>
         
-        <section class="heading">
+        <section class="initialSection">
             <div>
                 <h1>WELCOME TO MY WORLD</h1>
                 <ul>
@@ -46,70 +46,54 @@
             </div>
         </section>
 
-        <script src = "https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity = "sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin = "anonymous"> </script>
-        <script src = "https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity = "sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin = "anonymous"> </script>
-
-        <script src = "https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin = "anonymous"> </script>
-
-        <script>
-            $(function (){
-                $(document).scroll(function (){
-                    var $nav = $("#mainNavBar");
-                    $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
-                });
-            });
-        </script>
-
-        <section class="aboutme">
+        <section class="personalInfo">
             <h2>WHO AM I?</h2>
             <p>
                 A sophomore at New York University Abu Dhabi, I am a motivated individual currently pursuing a double-major in Computer Science and Mathematics.
                 My interests primarily lie in the intersection of data science and the humanities, and I hope to specialize in machine learning and natural language processing in the long run.
-                
                 <br><br>
-            
                 I am currently based in Abu Dhabi, UAE, but I frequently visit my home city of Lahore, Pakistan.
                 I am open to opportunities in both industry and academia.
             </p>
         </section>
 
-		<section class="skill">
+		<section class="skills">
             <h2>PRIMARY SKILLS</h2>
             
 			<div class="container">
-				<div class="skill1">
-					<img src="c++.webp" alt="c++">
+				<div class="skillOne">
+					<img src="images/skills/c++.webp">
                 </div>
                 
-				<div class="skill2">
-					<img src="python.png" alt="python">
+				<div class="skillTwo">
+					<img src="images/skills/python.png">
                 </div>
                 
-				<div class="skill3">
-					<img src="R.png" alt="arduino">
+				<div class="skillThree">
+					<img src="images/skills/r.png">
                 </div>
                 
-				<div class="skill5">
-					<img src="css.png" alt="css">
+				<div class="skillFour">
+					<img src="images/skills/css.png">
                 </div>
                                 
-                <div class="skill6">
-					<img src="html.png" alt="html">
+                <div class="skillFive">
+					<img src="images/skills/html.png">
                 </div>
 
-				<div class="skill4">
-					<img src="javascript.png" alt="javascript">
+				<div class="skillSix">
+					<img src="images/skills/javascript.png">
                 </div>
 			</div>
         </section>
         
-        <section id="projects" class="project">
+        <section class="projects">
             <h2>PROJECTS</h2>
             
-			<div class="prowrapper">
-				<div class="cwrap" onclick="">
-					<div class="pro1">
-						<div class="inner">
+			<div class="projectsContainer">
+				<div class="projectCard">
+					<div class="projectOne">
+						<div class="innerContent">
                             <h4>
                                 BRICK BLAST
                                 <br>
@@ -137,9 +121,9 @@
 					</div>
                 </div>
                 
-				<div class="cwrap" onclick="">
-					<div class="pro2">
-						<div class="inner">
+				<div class="projectCard">
+					<div class="projectTwo">
+						<div class="innerContent">
 							<div>
                                 <h4>
                                     PERSONAL
@@ -167,13 +151,25 @@
             </div>
 		</section>
 
-		<footer id="cont" class="foot">
-			<h2> I'M NOT ONE TO BYTE </h2>
+		<footer class="endingSection">
+			<h2>I DON'T BYTE</h2>
 
             <br>
 
-            <h3> Please feel free to contact me at any time! </h3>
-		</footer>
+            <h3>Please feel free to contact me at any time!</h3>
+        </footer>
+        
+        <script src = "https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity = "sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin = "anonymous"> </script>
+        <script src = "https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity = "sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin = "anonymous"> </script>
+        <script src = "https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin = "anonymous"> </script>
 
+        <script>
+            $(function (){
+                $(document).scroll(function (){
+                    var $nav = $("#mainNavBar");
+                    $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+                });
+            });
+        </script>
     </body>
 </html>
