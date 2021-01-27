@@ -199,7 +199,7 @@ body{
 	}
 }
 
-.projects{
+.projectWork{
 	background: darkgrey;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -209,7 +209,7 @@ body{
 	width: 100%;
 }
 
-.projects h2{
+.projectWork h2{
 	margin-top: 0;
 	margin-bottom: 0;
 	text-align: center;
