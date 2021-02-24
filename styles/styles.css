@@ -66,10 +66,10 @@ body{
   margin: 5px 2px;
 }
 
-.fa-envelope-o{
+/* .fa-envelope-o{
     color: seagreen;
     border: 0;
-}
+} */
 
 .fa-linkedin{
     color: seagreen;
@@ -389,3 +389,19 @@ body{
     font-weight: 300;
     line-height: 0.8;
 }
+
+.endingSection h3 a{
+	text-decoration: none;
+	color:seagreen;
+	font-feature-settings: 'lnum' 1;
+}
+
+.endingSection h3 a:hover{
+    color: darkgreen;
+    text-decoration: none;
+}
+
+.br { 
+	display: block; 
+	margin-bottom: 1.2em; 
+} 
