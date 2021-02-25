@@ -259,6 +259,24 @@ body{
 	padding: 5px;
 }
 
+.projectsContainer .projectThree{
+	background: lightgrey;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 5px;
+}
+
+.projectsContainer .projectFour{
+	background: lightgrey;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 5px;
+}
+
 .projectsContainer .content{
 	display: none;
 	backface-visibility: hidden;
