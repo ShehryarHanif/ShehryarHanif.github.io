@@ -241,37 +241,7 @@ body{
   	transform-style: preserve-3d;
 }
 
-.projectsContainer .projectOne{
-	background: lightgrey;
-	background-position: center;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	padding: 5px;
-	font-feature-settings: 'lnum' 1;
-}
-
-.projectsContainer .projectTwo{
-	background: lightgrey;
-	background-position: center;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	padding: 5px;
-	font-feature-settings: 'lnum' 1;
-}
-
-.projectsContainer .projectThree{
-	background: lightgrey;
-	background-position: center;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	padding: 5px;
-	font-feature-settings: 'lnum' 1;
-}
-
-.projectsContainer .projectFour{
+.projectsContainer .individualProject{
 	background: lightgrey;
 	background-position: center;
 	display: flex;
@@ -289,8 +259,6 @@ body{
 
 .projectsContainer .projectCard:hover .content{
 	display: block;
-	backface-visibility: hidden;
-	-webkit-backface-visibility: hidden;
 } 
 
 .projectsContainer .projectCard:hover .innerContent{
