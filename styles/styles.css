@@ -268,6 +268,7 @@ body{
 .projectsContainer .projectCard:hover > div{
   	transform: rotateY(180deg);
 	-webkit-transform: rotateY(180deg);
+	transform-style: preserve-3d;
   	background: lightgrey;
 	padding-top: 20px;
 }
@@ -275,6 +276,7 @@ body{
 .projectsContainer .content{
 	transform: rotateY(180deg);
 	-webkit-transform: rotateY(180deg);
+	transform-style: preserve-3d;
 }
 
 .projectsContainer p{
