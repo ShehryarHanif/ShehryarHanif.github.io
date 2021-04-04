@@ -89,7 +89,7 @@ body{
     text-decoration: none;
 }
 
-.fa-github:hover {
+.fa-github:hover{
     color: darkgreen;
     text-decoration: none;
 }
@@ -146,7 +146,7 @@ body{
 }
 
 @media only screen and (min-width: 850px){
-	.container {
+	.container{
 		display: grid;
 		width: 95%;
 		margin: 0 auto;
@@ -156,7 +156,7 @@ body{
 		grid-row-gap: 30px;
 	}
 
-	.skills .container img {
+	.skills .container img{
 		display: block;
 		height: 150px;
 		margin: 0 auto;
@@ -164,7 +164,7 @@ body{
 }
 
 @media only screen and (max-width: 849.9px){
-	.container {
+	.container{
 		display: grid;
 		width: 95%;
 		margin: 0 auto;
@@ -174,7 +174,7 @@ body{
 		grid-row-gap: 30px;
 	}
 
-	.skills .container img {
+	.skills .container img{
 		display: block;
 		height: 150px;
 		margin: 0 auto;
@@ -182,7 +182,7 @@ body{
 }
 
 @media only screen and (max-width: 550px){
-	.container {
+	.container{
 		display: grid;
 		width: 95%;
 		margin: 0 auto;
@@ -273,6 +273,7 @@ body{
 
 .projectsContainer .content{
 	transform: rotateY(180deg);
+	-webkit-transform: rotateY(180deg);
 }
 
 .projectsContainer p{
@@ -391,7 +392,7 @@ body{
     text-decoration: none;
 }
 
-.br { 
+.br{ 
 	display: block; 
 	margin-bottom: 1.2em; 
 } 
