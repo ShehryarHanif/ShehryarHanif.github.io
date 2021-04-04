@@ -267,6 +267,7 @@ body{
 
 .projectsContainer .projectCard:hover > div{
   	transform: rotateY(180deg);
+	-webkit-transform: rotateY(180deg);
   	background: lightgrey;
 	padding-top: 20px;
 }
