@@ -294,7 +294,7 @@ body{
 	margin: 0;
 }
 
-.speciallink{
+.specialLink{
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -314,6 +314,7 @@ body{
 	float: top;
 	text-decoration: none;
 	color: seagreen;
+
 }
 
 .repolink:hover{
@@ -321,7 +322,19 @@ body{
     text-decoration: none;
 }
 
-.speciallink:hover{
+.websiteLink{
+	float: top;
+	text-decoration: none;
+	color: seagreen;
+
+}
+
+.websiteLink:hover{
+    color: darkgreen;
+    text-decoration: none;
+}
+
+.specialLink:hover{
 	border: 1px solid darkgreen;
 }
 
@@ -336,7 +349,7 @@ body{
 		padding: 10px;
 	}
 
-	.speciallink{
+	.specialLink{
 		font-size: 1em;
 	}
 }
@@ -354,7 +367,7 @@ body{
 		padding: 10px;
 	}
 
-	.speciallink{
+	.specialLink{
 		font-size: 1.5em;
 	}
 }
